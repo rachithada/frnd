@@ -34,11 +34,13 @@ const NextButton = ({ to }) => (
 
 export default function Letters() {
   const lines = [
-    "Hey Rashi — kabhi kabhi sab kuch bhaari lagta hai, aur ye bilkul theek hai.",
-    "Par yaad rakhna: tum bahut ahmiyat rakhti ho — tumhare hone se bahut farq padta hai.",
-    "Tumhari choti si muskaan kisi ki din ko roshan kar deti hai.",
-    "Tum mein himmat hai, aur har chhoti jeet ek bada kadam hoti hai.",
-    "Aaj bhi main tumhare liye yahin hoon — tum akeli nahi ho. ❤️"
+    "Oye Rashi, kabhi kabhi din achhe nahi jaate, aur kisi cheez ki tension bahut ho jaati hai… par fikar mat kar, sab kuch normal hai.",
+    "Motu, ek baat yaad rakhna… tu iss duniya ke liye, apne parents ke liye, aur mere liye bhi bahut important hai. Tere hone se sach mein bahut farq padta hai.",
+    "Teri chhoti si hasi bhi kisi ka din banaa deti hogi 😊",
+    "Tere andar himmat hai, Motu… tu sab kuch kar sakti hai. Bas thodi si chingari chahiye jo sab shuru kar de 🔥",
+    "Tu bas khud pe bharosa rakh, skills aur exam sab acha hoga. Aur haan, comeback bhi karna hai — tune hi bola tha na 😎",
+    "Haan, shayad main kabhi kabhi bahut zyada bolta hoon aur ho sakta hai ki ye sab jo upar likha hai thoda fake lage, lekin sach mein, mujhe tujhpe pura vishwas hai. I really, really believe in you ❤️",
+    "Aur haan, hamesha tere saath rahunga… ye main hamesha bolta hoon, par ab tak kisi ke liye prove nahi kar paya. Lekin sach mein, I’ll do my best to never let you feel alone 😌"
   ];
 
   // detect reduced motion preference

@@ -11,7 +11,7 @@ export default function FinalPage() {
         transition={{ duration: 1 }}
         className="text-4xl sm:text-5xl font-bold text-purple-700 mb-4"
       >
-        And that’s where our little story rests… 🌸
+        And that’s where my little website to make you feel happy rests... 🌸
       </motion.h1>
 
       <motion.p
@@ -22,6 +22,7 @@ export default function FinalPage() {
       >
         Some journeys don’t end, they just find a place in the heart  
         — and stay there, quietly, forever. 💖
+        (No more breakdowns 😁)
       </motion.p>
     </div>
   );
