@@ -33,26 +33,18 @@ const NextButton = ({ to }) => (
 );
 
 const compliments = [
-  "Tum meri duniya ka sabse bright part ho ☀️",
-  "Tumhari smile literally magic hai ✨",
-  "Koi tumse compete hi nahi kar sakta ❤️",
-  "Tumhare bina ye duniya boring ho jaati 🌍",
-  "Tum ek walking sunshine ho 🌸",
-  "Tumhari aankhon mein pure saare stars hain 🌟",
-  "Tum bilkul diamond ki tarah precious ho 💎",
-  "Tumhari laugh sabse beautiful sound hai 🎵",
-  "Tum meri favorite notification ho 📱",
-  "Tumhara vibe hi different level ka hai ✨",
+  "Tu bhot sundar hai dil se bhi aur face se bhi",
+  "Me tera dost hu isese acha gift teko bhagwan ne aur kya hi diya hoga",
+  "Dimag ki bhot jyada kami hai aap ke andar ❤️",
+  "College aya kr yrr tu boring nhi hai mere liye to 🌍",
+  "Pagal hai tu lekin pyari bhi 🌸",
+  "Teri aankhein aaye haye kbhi dekhne ka man nhi krta 😂",
+  "Tu ek heera hai mere liye jisko me kbhi bhul nhi skta",
+  "Teri hasi jo ki bhot kam dekhi hai mene lekin bhot achi lagti hai teri smile 🎵",
+  "Me bs wait krta rehta hu tere msg ka lekin bhot kam ata hai tera msg to 😭",
+  "Tere saath class me bethne ki vibe hi alg hai",
   "Tum ek living masterpiece ho 🎨",
-  "Tumhari energy pure room ko light up kar deti hai 💫",
-  "Tum sabse cute aur smart combo ho 🧠💕",
-  "Tumhara hona hi enough reason hai khush rehne ka 🌈",
-  "Tum meri personal cheerleader ho 📣",
-  "Tumhari presence mere liye blessing hai 🙏",
-  "Tum literally glow karti ho from inside ✨",
-  "Tumhara dimag aur dil dono perfect hain 💝",
-  "Tum meri favorite person ever ho 👑",
-  "Tumhara confidence sabko inspire karta hai 💪"
+  "Teri awaj sunke pura din acha ho jata hai",
 ];
 
 const mindGameQuestions = [
@@ -316,6 +308,12 @@ export default function FunCorner() {
           {item.emoji}
         </motion.span>
       ))}
+
+      <h1 className="fixed bottom-20 w-full text-center px-4 text-lg sm:text-xl md:text-2xl text-pink-700 font-bold bg-gradient-to-r from-purple-100 via-pink-100 to-purple-100 rounded-xl shadow-lg py-3">
+  Yeh wala page thoda acha nhi bna hai 😂 mtlb jo me banane ka soch rha tha wo nhi bna lekin 
+  tu jitni bhi baar <span className="text-purple-700 underline">get you compliment</span> dabaygi 
+  teko alg alg real compliment milenge 😁
+</h1>
 
       <NextButton to="/final" />
     </div>
